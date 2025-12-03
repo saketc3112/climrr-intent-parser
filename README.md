@@ -52,6 +52,7 @@ Run:
 
 ```bash
 pip install -e .
+```
 
 
 This installs the library in editable mode, so any updates inside the folder immediately reflect in Python imports.
@@ -59,6 +60,8 @@ This installs the library in editable mode, so any updates inside the folder imm
 Option 2 — Install directly from GitHub
 If the repository is hosted online:
 
-```pip install git+https://github.com/yourusername/climrr_intent_parser.git
+```
+pip install git+https://github.com/yourusername/climrr_intent_parser.git
+```
 
 Replace with your actual GitHub repo URL.
