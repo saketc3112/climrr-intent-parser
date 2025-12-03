@@ -38,15 +38,7 @@ climrr_intent_parser/
 ### **Option 1 — Install locally (editable mode)**
 
 If your folder contains:
-climrr_intent_parser/
-pyproject.toml
-
----
-
-## 🚀 Installation Instructions
-
-### **Option 1 — Install locally (editable mode)**
-
+climrr_intent_parser/pyproject.toml
 
 Run:
 
@@ -57,7 +49,7 @@ pip install -e .
 
 This installs the library in editable mode, so any updates inside the folder immediately reflect in Python imports.
 
-Option 2 — Install directly from GitHub
+### **Option 2 — Install directly from GitHub**
 If the repository is hosted online:
 
 ```
