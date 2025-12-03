@@ -16,19 +16,20 @@ All logic from the original extraction and parsing functions is preserved exactl
 
 ## Package Structure
 
+```
 climrr_intent_parser/
-├── init.py
+├── __init__.py
 ├── parsing/
-│ ├── init.py
-│ └── intent_processor.py
+│   ├── __init__.py
+│   └── intent_processor.py
 ├── utils/
-│ ├── init.py
-│ └── constants.py
+│   ├── __init__.py
+│   └── constants.py
 ├── templater.py
 ├── helpers.py
 ├── pyproject.toml
 └── README.md
-
+```
 
 
 ---
@@ -38,27 +39,22 @@ climrr_intent_parser/
 ### **Option 1 — Install locally (editable mode)**
 
 If your folder contains:
-climrr_intent_parser/
-pyproject.toml
-
----
-
-## 🚀 Installation Instructions
-
-### **Option 1 — Install locally (editable mode)**
-
+climrr_intent_parser/pyproject.toml
 
 Run:
 
 ```bash
 pip install -e .
+```
 
 
 This installs the library in editable mode, so any updates inside the folder immediately reflect in Python imports.
 
-Option 2 — Install directly from GitHub
+### **Option 2 — Install directly from GitHub**
 If the repository is hosted online:
 
-```pip install git+https://github.com/yourusername/climrr_intent_parser.git
+```
+pip install git+https://github.com/yourusername/climrr_intent_parser.git
+```
 
 Replace with your actual GitHub repo URL.
