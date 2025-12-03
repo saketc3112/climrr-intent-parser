@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "climrr_intent_parser"
+version = "0.0.1"
+description = "Intent parsing and ClimRR data extractor utilities"
+authors = [
+  { name="You", email="you@yourdomain" }
+]
+dependencies = []
+
