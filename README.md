@@ -16,19 +16,20 @@ All logic from the original extraction and parsing functions is preserved exactl
 
 ## Package Structure
 
+```
 climrr_intent_parser/
-├── init.py
+├── __init__.py
 ├── parsing/
-│ ├── init.py
-│ └── intent_processor.py
+│   ├── __init__.py
+│   └── intent_processor.py
 ├── utils/
-│ ├── init.py
-│ └── constants.py
+│   ├── __init__.py
+│   └── constants.py
 ├── templater.py
 ├── helpers.py
 ├── pyproject.toml
 └── README.md
-
+```
 
 
 ---
