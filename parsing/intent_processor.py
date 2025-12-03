@@ -2,8 +2,6 @@ import re
 from typing import Any, Dict
 from ..utils.constants import FULL_KEY_MAP, get_final_data_key
 
-# ---- Begin functions provided by user (logic preserved) ----
-
 def process_query_with_clarification(user_query: str, input_data: Dict, turn_count: int = 0) -> Dict[str, Any]:
     """
     Manages the clarification loop based on parsed intent confidence and completeness.
@@ -307,6 +305,4 @@ def extract_relevant_data(user_query, input_data, assistant_response):
         }
 
     return input_data
-
-# ---- End functions (unchanged logic) ----
 
